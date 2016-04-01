@@ -4,7 +4,8 @@ CXX ?= g++
 CXXFLAGS ?= -O2 -Wall
 LDFLAGS += -Wl,-Bsymbolic-functions
 
-GASIA_GAMEPAD_HACKS = false # Set to 'true' to enable hacks
+GASIA_GAMEPAD_HACKS = true # Set to 'true' to enable hacks
+SHANWAN_FAKE_DS3 = true #set to 'true' to enable hacks
 
 ifeq ($(GASIA_GAMEPAD_HACKS),true)
 CXXFLAGS += -DGASIA_GAMEPAD_HACKS

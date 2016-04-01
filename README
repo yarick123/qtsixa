@@ -1,4 +1,6 @@
 QtSixA is the Sixaxis Joystick Manager
+This is the version customized for the Primestation One
+https://github.com/free5ty1e/primestationone
  ------------------------------------
 
 QtSixA can connect PS3 hardware (Sixaxis/DualShock3, Keypads and Remotes)
@@ -11,8 +13,8 @@ Currently sixad supports:
  - PS3 Keypads
  - PS3 BD Remotes
 
-sixad also registers the hardware's MAC/ID in the device name
-(ex: "PLAYSTATION(R)3 Controller (00:XX:X0:0X:XX)".
+This version of sixad will NOT register the hardware's MAC/ID in the device name
+(ex: "PLAYSTATION(R)3 Controller").
 
  -------------------------------------
 
